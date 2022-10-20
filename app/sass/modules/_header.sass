@@ -1,0 +1,30 @@
+.header
+  position: relative
+  height: 100vh
+  color: #ffffff
+  @extend %lato
+  text-transform: uppercase
+  &__video
+    position: absolute
+    z-index: 1
+    top: 0
+    bottom: 0
+    right: 0
+    left: 0
+    width: 100%
+    height: 100%
+
+  &__inner
+    position: relative
+    z-index: 2
+    background-color: rgba(0, 0,0,0.5)
+    padding: 20px 0
+    &-box
+      display: flex
+      justify-content: space-between
+      align-items: center
+  &__button
+    padding: 9px 33px
+    background-color: rgb(48, 80, 240)
+    border-radius: 15px
+    font-size: 15px

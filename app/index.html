@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide App</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <script defer src="js/main.min.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__video">
+          <video autoplay width="100%" loop muted disablepictureinpicture id="video">
+            <source src="videos/video.webm" type="video/webm">
+            <source src="videos/video.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="header__inner">
+          <div class="container"> 
+            <div class="header__inner-box"><a class="logo" href="/"><img src="images/logo.png" alt="logo icon"></a>
+              <nav class="menu">
+                <ul class="menu__list">
+                  <li class="menu__list-item"> <a class="menu__list-link" href="#home">home</a></li>
+                  <li class="menu__list-item"> <a class="menu__list-link" href="#roadmap">roadmap</a></li>
+                  <li class="menu__list-item"> <a class="menu__list-link" href="#team">team</a></li>
+                  <li class="menu__list-item"> <a class="menu__list-link" href="#bakers">our bakers</a></li>
+                  <li class="menu__list-item"> <a class="menu__list-link" href="#litepaper">litepaper</a></li>
+                  <li class="menu__list-item"> <a class="menu__list-link" href="#paper">white paper</a></li>
+                </ul>
+              </nav><a class="header__button" href="#">get app</a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <section class="slide"></section>
+      </main>
+      <footer class="footer"></footer>
+    </div>
+  </body>
+</html>
